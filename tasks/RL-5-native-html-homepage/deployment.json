@@ -1,0 +1,26 @@
+{
+  "verified_date_ist": "2026-11-28",
+  "page_id": 14,
+  "status": "publish",
+  "template": "page-no-title",
+  "block_count": 1,
+  "block_name": "core/html",
+  "content_sha256": "c037fcfadc3602afa73bb9d3d5e0f8988ae0785f981a00847eaafcfc04b2744e",
+  "reading_before": {
+    "show_on_front": "posts",
+    "page_on_front": 0,
+    "page_for_posts": 0,
+    "blog_public": 1
+  },
+  "reading_after": {
+    "show_on_front": "page",
+    "page_on_front": 14,
+    "page_for_posts": 0,
+    "blog_public": 0
+  },
+  "public_robots_meta": "noindex, nofollow",
+  "public_view": "Existing WooCommerce Coming soon screen (preserved)",
+  "authenticated_view": "REDLINE concept homepage",
+  "theme_plugins_changed": [],
+  "other_pages_changed": []
+}
