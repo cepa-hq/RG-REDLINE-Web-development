@@ -1,0 +1,24 @@
+# Never commit secrets or private runtime data.
+.env
+.env.*
+!.env.example
+wp-config.php
+auth.json
+credentials*.json
+*.pem
+*.key
+*.sql
+*.sql.gz
+*.log
+# Runtime/generated dependencies and caches.
+node_modules/
+vendor/
+.cache/
+.DS_Store
+# WordPress backups and operational data; reviewed task artifacts may use tasks/.
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/ai1wm-backups/
+wp-content/updraft/
+
