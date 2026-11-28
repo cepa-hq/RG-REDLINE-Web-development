@@ -1,0 +1,13 @@
+{
+  "bytes": 190642,
+  "sha256": "8fadcbf7c2139611f49525ca625d779d73a68fbd14e2f3f373016f7ae1f3e330",
+  "font": "Exo 2 variable upright, 100\u2013900",
+  "heading_tracking": "+0.02em",
+  "heading_line_height": 1.32,
+  "heading_colours": {
+    "Brushed silver": "#C4C8CD",
+    "Titanium silver": "#98A2AD"
+  },
+  "external_asset_requests": 0,
+  "live_deployment": false
+}

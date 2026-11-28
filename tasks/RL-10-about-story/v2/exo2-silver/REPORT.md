@@ -1,0 +1,13 @@
+# RL-10 — Exo 2 About preview with silver heading options
+
+28 November 2026, Asia/Kolkata. Agent codex-redline-about. Owner requested Exo, the first recommendation (Exo 2), more open headings and two silver heading colours instead of stark white on black. Baseline task branch 5b51f4ba04c1dc4a7b9f26a1e8e4bfb29ed6f4e3. Own only new tasks/RL-10-about-story/v2/exo2-silver/. Related issue #10 and draft PR #11. Sample only, no production type or colour decision.
+
+Exo 2 is embedded throughout text. Headings use +0.02em letter spacing and 1.32 line height, keeping prior sizes/weights. A local native radio group selects Brushed Silver #C4C8CD (default, lighter neutral) or Titanium Silver #98A2AD (darker cooler). Both apply to all H1/H2/H3 text and hero emphasis. Red remains on brand/interface/circuit accents. Choosing a colour changes no layout or network state and does not persist beyond the page session.
+
+Font source is the licensed variable Exo 2 upright Latin/punctuation/rupee WOFF subset from the preceding font comparison, Google Fonts ofl/exo2. Weight axis 100–900; full OFL notice included in HTML and font-assets.json. Logo artwork, owner-supplied content, black background, cards, flag, reading progress and main JavaScript are retained. Original main script verified byte-identical to the preceding sample. Only colour-control JS is added; Node syntax check passed for that script.
+
+Actual browser checks: Exo 2 family read back on desktop and phone. Desktop H1 38px, tracking .76px, line height 50.16px, initial colour rgb(196,200,205). Clicking titanium produced rgb(152,162,173) on every H1/H2/H3. Native ArrowLeft returned to brushed, with checked state/CSS variable read back. Phone titanium selection verified, H1 32px/.64px tracking; client/scroll widths 375/375. Tablet widths 805/805, visual layout/control review passed. Desktop both finishes visually reviewed. No full-site accessibility certification or production speed benchmark claimed; existing v2 animation/GPU verification limitations remain.
+
+Final standalone RG-REDLINE-About-Us-Exo2-Silver.html: 190,642 bytes, SHA-256 8fadcbf7c2139611f49525ca625d779d73a68fbd14e2f3f373016f7ae1f3e330. All assets are embedded; no external asset requests. Open HTML directly in a browser. Rebuild with `python build.py` in this repository folder (default guarded parent input: v2/sora/spacing/RG-REDLINE-About-Us-Sora-Spaced.html) or supply `--base /path/to/that/file` elsewhere.
+
+All prior samples preserved. No WordPress page, option, shared brand document, live homepage, customer/order/review data or other agent work changed. Recovery: discard the isolated Exo 2 sample. Editing claim released at checkpoint; issue #10 remains open for owner review.
