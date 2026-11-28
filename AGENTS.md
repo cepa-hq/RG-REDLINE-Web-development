@@ -2,6 +2,10 @@
 
 Applies to all brand, design, code, WordPress and WooCommerce work coordinated here. Owner instructions in the active task take precedence; preserve authorization already given rather than requesting it repeatedly.
 
+## REDLINE logo identity — owner-confirmed 28 November 2026
+
+REDLINE must always use the **fat/weighted Roun Groun wordmark**. The original thin parent-brand wordmark is prohibited for REDLINE, including previews, header/footer lockups, watermarks, social visuals and packaging. Do not substitute typed text or silently fall back to the thin mark when an asset is unavailable. Preserve the recognisable weighted letterforms and use an appropriate approved colour treatment. Refer to the logo section of docs/brand/BRAND_BRIEF.md; preserve source provenance and distinguish concept conversions from approved production masters.
+
 ## Read and verify
 
 Read README.md, docs/brand/BRAND_BRIEF.md, docs/website/ARCHITECTURE.md and docs/coordination/README.md before work. Inspect the current default branch, active branches, open PRs and open task Issues. When implementation lives elsewhere, inspect that source and its instructions too. Re-read relevant state after a long interruption.
