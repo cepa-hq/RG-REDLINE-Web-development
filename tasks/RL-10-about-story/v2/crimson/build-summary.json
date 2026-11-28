@@ -1,0 +1,12 @@
+{
+  "bytes": 250530,
+  "sha256": "03422725154c2f1198fa556d02a882df1da7bac2757d5f9c26d8e4576404e479",
+  "base_sha256": "ff3d73cb1f9eade019d9cf023b9b1d7a3380b375cdb23923fbbc0f5188c26745",
+  "font": "Uploaded Crimson Pro variable upright WOFF2, original unmodified bytes",
+  "font_sha256": "5db8d839040ce4d7dc6ef8434554f84f60a95c76099f60b8dee804a2837beaf9",
+  "weight_range": "200\u2013900",
+  "body_and_js_unchanged": true,
+  "layout_rules_unchanged": true,
+  "external_asset_requests": 0,
+  "live_deployment": false
+}
