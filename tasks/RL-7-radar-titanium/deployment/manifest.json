@@ -1,0 +1,16 @@
+{
+  "page_id": 14,
+  "template": "page-no-title",
+  "source_sha256": "c6918807f23789ff691ae06aa9813b5dac6bbbdb126a66d6e0140395ae2e7fae",
+  "before_sha256": "c037fcfadc3602afa73bb9d3d5e0f8988ae0785f981a00847eaafcfc04b2744e",
+  "after_sha256": "75f06db37a38f168ef3e6bec2243365c8464572d07d35977f4874aeaccf5fb06",
+  "after_bytes": 125235,
+  "block_type": "core/html",
+  "options": [
+    "Finish",
+    "Beam colour: White / Green",
+    "Light intensity",
+    "Pause / resume radar sweep"
+  ],
+  "settings_mutations": []
+}
