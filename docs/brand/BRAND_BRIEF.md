@@ -16,6 +16,14 @@ Recorded 28 November 2026 (India time). This brief separates owner decisions fro
 
 The website should behave as directly as it speaks. Visitors should understand the equipment’s purpose, status, limitations and next action without wading through hype.
 
+## Owner-confirmed logo identity — 28 November 2026
+
+**REDLINE always uses the fat/weighted Roun Groun wordmark. It must not use the original thin Roun Groun parent-brand logo.** This applies to the website, previews, headers, footers, watermarks, packaging and other REDLINE brand material. Keep the recognisable lettering, proportions and weight. A typed brand name or faux-bold treatment of the thin wordmark is not a substitute.
+
+The owner supplied a bold reference earlier (`Banner 8.png`) and reiterated the weighted-only rule in the Radar Titanium revision request. Existing generated colour exports with rough/distressed edges are not an approved production master. RL-7 uses a clean vector silhouette traced from the coloured lettering of that owner-supplied reference for the concept; it does not declare those earlier generated exports approved. Use the owner's clean weighted masters when available, preserve the selected file and its provenance, and never silently substitute the thin mark.
+
+The original thin mark embedded in earlier REDLINE explorations is superseded by this owner decision. This rule does not by itself authorise modifying live WordPress pages or unrelated assets.
+
 ## Proposed design language — starting point, not final approval
 
 - Near-black graphite surfaces; controlled signal red; off-white primary text and legible grey supporting text.
