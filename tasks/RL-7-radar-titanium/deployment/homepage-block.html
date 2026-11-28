@@ -613,7 +613,7 @@ function resize(){
   if(i%6===0){let v=p[3];pc.strokeStyle='rgba(179,203,221,.25)';pc.strokeRect(v[0]-7,v[1]-4,14,8);for(let j=0;j<3;j++){pc.beginPath();pc.moveTo(v[0]-4+j*4,v[1]-7);pc.lineTo(v[0]-4+j*4,v[1]-4);pc.moveTo(v[0]-4+j*4,v[1]+4);pc.lineTo(v[0]-4+j*4,v[1]+7);pc.stroke()}}
  }
  // Fixed range arcs and a restrained emitter mark tie the circuit plane together.
- for(let r of [110,230,360,520]){if(w<700&&r>360)continue;pc.beginPath();pc.arc(cx,cy,r,.5,Math.PI*1.8);pc.strokeStyle='rgba(166,196,216,.075)';pc.lineWidth=.65;pc.stroke()}
+ for(let r of [110,230,360,520]){if(w<700){if(r>360)continue;}pc.beginPath();pc.arc(cx,cy,r,.5,Math.PI*1.8);pc.strokeStyle='rgba(166,196,216,.075)';pc.lineWidth=.65;pc.stroke()}
  pc.strokeStyle='rgba(207,228,243,.28)';pc.lineWidth=.8;pc.beginPath();pc.arc(cx,cy,7,0,Math.PI*2);pc.moveTo(cx-14,cy);pc.lineTo(cx+14,cy);pc.moveTo(cx,cy-14);pc.lineTo(cx,cy+14);pc.stroke();
  draw(clock);
 }
@@ -637,11 +637,11 @@ function draw(t){
  ctx.strokeStyle=fade;ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(cx,cy);ctx.lineTo(cx+Math.cos(angle)*radius,cy+Math.sin(angle)*radius);ctx.stroke();ctx.restore();
 }
 function tick(now){if(!motion||!visible){frame=0;lastTick=0;return}if(!lastTick)lastTick=now;clock+=Math.min((now-lastTick)/1000,.08);lastTick=now;if(now-lastFrame>1000/(w<700?18:24)){draw(clock);lastFrame=now}frame=requestAnimationFrame(tick)}
-function start(){if(motion&&visible&&!frame)frame=requestAnimationFrame(tick)}
-function updateMotion(){root.classList.toggle('motion-off',!motion);root.querySelectorAll('.motion-toggle,.dock-motion').forEach(b=>{b.textContent=motion?'Pause radar sweep':'Resume radar sweep';b.setAttribute('aria-pressed',String(motion))});if(!motion&&frame){cancelAnimationFrame(frame);frame=0;lastTick=0;draw(clock)}else start()}
+function start(){if(!motion)return;if(!visible)return;if(frame)return;frame=requestAnimationFrame(tick)}
+function updateMotion(){root.classList.toggle('motion-off',!motion);root.querySelectorAll('.motion-toggle,.dock-motion').forEach(b=>{b.textContent=motion?'Pause radar sweep':'Resume radar sweep';b.setAttribute('aria-pressed',String(motion))});if(!motion ? Boolean(frame) : false){cancelAnimationFrame(frame);frame=0;lastTick=0;draw(clock)}else start()}
 root.querySelectorAll('.motion-toggle,.dock-motion').forEach(b=>b.addEventListener('click',()=>{motion=!motion;updateMotion()}));
 reduce.addEventListener('change',e=>{motion=!e.matches;updateMotion()});
-document.addEventListener('visibilitychange',()=>{visible=!document.hidden;if(!visible&&frame){cancelAnimationFrame(frame);frame=0;lastTick=0}else start()});
+document.addEventListener('visibilitychange',()=>{visible=!document.hidden;if(!visible ? Boolean(frame) : false){cancelAnimationFrame(frame);frame=0;lastTick=0}else start()});
 let resizeTimer;addEventListener('resize',()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(resize,150)});
 resize();updateMotion();
 
