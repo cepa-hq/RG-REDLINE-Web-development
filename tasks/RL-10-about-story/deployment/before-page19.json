@@ -1,0 +1,21 @@
+{
+  "id": 19,
+  "title": "About RG REDLINE",
+  "content": "",
+  "excerpt": "",
+  "status": "draft",
+  "date": "2026-11-28T22:45:13",
+  "modified": "2026-11-28T22:45:13",
+  "slug": "about",
+  "parent": 0,
+  "menu_order": 0,
+  "template": "page-no-title",
+  "author": 2,
+  "link": "https://rg-redline.com/?page_id=19",
+  "meta": {
+    "_themeisle_gutenberg_block_has_review": false,
+    "footnotes": ""
+  },
+  "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "content_bytes": 0
+}
