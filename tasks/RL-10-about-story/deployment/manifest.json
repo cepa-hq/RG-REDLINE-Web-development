@@ -1,0 +1,17 @@
+{
+  "page_id": 19,
+  "slug": "about",
+  "template": "page-no-title",
+  "native_block": "core/html",
+  "font": "Exo 2",
+  "heading_colour": "#C4C8CD",
+  "heading_tracking": "+0.02em",
+  "heading_line_height": 1.32,
+  "source_sha256": "8fadcbf7c2139611f49525ca625d779d73a68fbd14e2f3f373016f7ae1f3e330",
+  "block_sha256": "4e0bce0c9d594aad6d5e57216c38b8b4c60b6dfded37a40df36a572cdfff04dc",
+  "block_bytes": 192102,
+  "final_html_sha256": "fd7487995dad916052b059fddcce28af8edbc63bfa1bacb98fc61ec8b5787cfa",
+  "settings_mutations": [],
+  "homepage_mutation": false,
+  "temporary_colour_controls_removed": true
+}
