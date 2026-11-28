@@ -1,0 +1,17 @@
+{
+  "url": "https://rg-redline.com/about/",
+  "status": 200,
+  "robots": [
+    "<meta name='robots' content='noindex, nofollow' />"
+  ],
+  "canonical": [
+    "<link rel=\"canonical\" href=\"https://rg-redline.com/about/\" />"
+  ],
+  "body_classes": "wp-singular page-template page-template-page-no-title page page-id-19 wp-embed-responsive wp-theme-twentytwentyfive theme-twentytwentyfive woocommerce-uses-block-theme woocommerce-block-theme-has-button-styles woocommerce-no-js",
+  "app_roots": 1,
+  "our_scripts": 1,
+  "script_exact": true,
+  "script_sha256": "05d3fcfaa38424b9d66a9534cb456f9c5e8b12ec6d1f12cf3a996da4b5a5aea7",
+  "expected_script_sha256": "05d3fcfaa38424b9d66a9534cb456f9c5e8b12ec6d1f12cf3a996da4b5a5aea7",
+  "controls_removed": true
+}

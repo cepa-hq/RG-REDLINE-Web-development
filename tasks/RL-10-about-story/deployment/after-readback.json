@@ -1,0 +1,23 @@
+{
+  "id": 19,
+  "title": "About RG REDLINE",
+  "status": "publish",
+  "slug": "about",
+  "link": "https://rg-redline.com/about/",
+  "template": "page-no-title",
+  "modified": "2026-11-28T22:48:28",
+  "content_sha256": "4e0bce0c9d594aad6d5e57216c38b8b4c60b6dfded37a40df36a572cdfff04dc",
+  "content_bytes": 192102,
+  "native_html_blocks": 1,
+  "colour_controls_removed": true,
+  "homepage": {
+    "id": 14,
+    "sha256": "042e8bb2e633d84d13b91012b1fb4f0b683001215deff58332b4d2ad28bd48a4",
+    "unchanged": true
+  },
+  "reading": {
+    "show_on_front": "page",
+    "page_on_front": 14,
+    "page_for_posts": 0
+  }
+}
