@@ -1,0 +1,12 @@
+{
+  "bytes": 177604,
+  "sha256": "51c56b50cae6b002493d2bed7a7898ad1c36fc2361de01d357714f29fa9d284d",
+  "base_sha256": "ff3d73cb1f9eade019d9cf023b9b1d7a3380b375cdb23923fbbc0f5188c26745",
+  "font": "Sora variable upright WOFF, licensed subset from REDLINE font comparison",
+  "font_sha256": "b78339c6c035286749a2ce94a6875ee97e8dfad558f039af3e8a0583b55a1501",
+  "weight_range": "100\u2013800",
+  "body_and_js_unchanged": true,
+  "layout_rules_preserved_except_tablet_header": true,
+  "external_asset_requests": 0,
+  "live_deployment": false
+}
