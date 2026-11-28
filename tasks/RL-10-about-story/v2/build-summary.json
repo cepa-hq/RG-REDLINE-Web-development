@@ -1,0 +1,11 @@
+{
+  "bytes": 215381,
+  "sha256": "ff3d73cb1f9eade019d9cf023b9b1d7a3380b375cdb23923fbbc0f5188c26745",
+  "background": "#000000",
+  "fonts": [
+    "Space Grotesk variable, Latin subset",
+    "Syne variable, Latin subset"
+  ],
+  "external_requests": 0,
+  "live_deployment": false
+}
